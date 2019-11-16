@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family:  "Roboto Mono", monospace;
 }
 
 .message {
   position: absolute;
+  padding-left: 40px;
 }
 
 #top-container {
