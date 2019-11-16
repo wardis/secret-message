@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 body {
-  font-family:  "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .message {
@@ -23,6 +23,31 @@ body {
 }
 
 /* alignement */
-#top-container, #bottom {
-  padding-top: 30vh;
+#top-container,
+#bottom {
+  padding-top: 250px;
+}
+
+p {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+#hint {
+  /* position: relative; */
+  margin-top: 200px;
+  margin-left: 40px;
+  color: darkgray;
+  letter-spacing: 1.2px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
